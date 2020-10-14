@@ -1,0 +1,193 @@
+<!-- Codes_demo/demo_html.html -->
+<!-- Dùng Ctrl + / để comment code -->
+<!--
+HTML
+1 - Khái niệm
+Với lập trình web sẽ chia thành 2 phần chính:
+Frontend -> HTML, CSS, Javascript
+Backend -> PHP
+- Hyper Text Markup Language
+- Quy trình xây dựng web so sánh như việc xây
+dựng 1 ngôi nhà
+HTML -> xây phần thô của ngôi nhà
+CSS -> trang trí cho ngôi nhà
+Javascript -> tăng tính tương tác cho ngôi nhà,
+- HTML đc thể hiện qua các tag / thẻ
+- Học HTML học thuộc các tên thẻ và nhớ đặc trưng của từng thẻ
+- HTML đc viết thông qua file có đuôi là .html hoặc .htm, dùng đuôi .html
+
+2 - Cấu trúc 1 trang HTML cơ bản
++ Trong HTML có 2 kiểu thẻ:
+ - Thẻ đầy đủ: có cả thẻ đóng và thẻ mở
+ - Thẻ khuyết: có thẻ mở và thẻ đóng nằm luôn ở thẻ mở
+ -->
+<!DOCTYPE html />
+<!-- Thẻ html là thẻ to nhất trong cấu trúc HTML -->
+<html>
+	<!-- Thẻ head chứa các khai báo liên quan đến tiêu đề trang -->
+	<head>
+		<!-- Thẻ meta sau có tác dụng  hiển thị ký tự có dấu trên trang mà ko bị lỗi font -->
+		<meta charset="utf8" />
+		<!-- Tiêu đề trang web -->
+		<title>Demo HTML</title>
+	</head>
+	<!-- Thẻ body chứa nội dung hiển thị tới user -->
+	<body>
+		<!-- Nên dùng Chrome để test, ngôn ngữ trình duyệt nên là tiếng Anh -->
+		Nội dung trong thẻ body
+		<!-- Các thẻ h - heading, h1 -> h6, giảm dần theo size của text, là thẻ đầy đủ, đặt tiêu đề cho bài viết -->
+		<h1>Thẻ h1</h1>
+		<h2>Thẻ h2</h2>
+		<h3>Thẻ h3</h3>
+		<h4>Thẻ h4</h4>
+		<h5>Thẻ h5</h5>
+		<h6>Thẻ h6</h6>
+		<!-- Thẻ p - paragraph - thẻ đầy đủ, mô tả 1 đoạn văn bản -->
+		<p>Thẻ p1</p>
+		<p>Thẻ p2</p>
+		<!-- Thẻ br - break - thẻ khuyết, dùng để xuống dòng -->
+		Đoạn text này <br />
+		Có bị xuống dòng không ?
+		<!-- Thẻ hr - Hiển thị 1 đường kẻ ngang - horizontal, thẻ khuyết -->
+		<hr />
+		<!-- Thẻ i - in nghiêng text - italic, thẻ đầy đủ -->
+		<i>Text được in nghiêng</i>
+		<!-- Thẻ b - in đậm, bold, thẻ đầy đủ -->
+		<b>In đậm</b>
+		<!-- Thẻ u - gạch chân text, thẻ đầy đủ -->
+		<u>Gạch chân</u>
+		<!-- Thẻ div - dựng các khối trên trang, chứa các thẻ con, có tác dụng khi kết hợp với CSS, thẻ đầy đủ -->
+		Text ngoài thẻ div
+		<div>Text trong thẻ div</div>
+		<div>
+			<p>Thẻ p trong div</p>
+			<u>Thẻ u trong div</u>
+			<div>Thẻ div trong div</div>
+		</div>
+		<!-- Thẻ span, chỉ có tác dụng khi kết hợp với CSS -->
+		Text span có <span>màu đỏ</span>
+		<!-- Thẻ meta, ko hiển thị trong nội dung web, liên quan đến header của trang như SEO ..., thẻ khuyết -->
+		<!-- Thẻ img - Hiển thị ảnh - image, thẻ khuyết
+		- src: đường dẫn tới file ảnh muốn nhúng, đường dẫn tương đối: file muốn nhúng vào nằm ở vị trí ntn so với file hiện tại. Copy 1 ảnh bất kỳ vào ngang hàng/cùng cấp với file .html hiện tại
+		demo_html.html, chú ý ko thêm / vào đầu đường dẫn
+		css           /abc.png
+		abc.png
+		 -->
+		<img src="image.png"
+		title="Hiển thị khi rê chuột qua thẻ"
+		alt="Chỉ hiển thị khi đường dẫn sai"
+		width="100px"
+		height="100px"
+		 />
+		 <!-- Các thẻ liên quan đến bảng: table, thead, th, tbody, tr, td
+			VD: 1 bảng có 4 hàng, mỗi hàng 3 cột
+			+ border: hiển thị viền cho bảng
+			+ cellspacing: bỏ đi khoảng cách viền
+			+ cellpading: khoảng cách từ viền đến nội dung bên trong của cột
+		  -->
+		  <table border="1" cellspacing="0" cellpadding="6">
+		  	<!-- table row -->
+		  	<tr>
+		  		<!-- table heading -->
+		  		<th>ID</th>
+		  		<th>Tên</th>
+		  		<th>Tuổi</th>
+		  	</tr>
+		  	<tr>
+		  		<!-- table data -->
+		  		<!-- Tại hàng thứ 2, gộp 2 cột đầu tiên làm 1 cột bằng thuộc tính colspan trên thẻ td, sau khi gộp cột cần bỏ đi các cột phía sau tương ứng để giữ nguyên cấu trúc bảng -->
+		  		<td colspan="2">1</td>
+		  		<!-- <td>Mạnh</td> -->
+		  		<td>30</td>
+		  	</tr>
+		  	<!-- Gộp hàng: lấy cột thứ nhất của hàng 3 gộp với cột thứ nhất của hàng 4, dùng rowspan -->
+		  	<tr>
+		  		<td rowspan="2">2</td>
+		  		<td>A</td>
+		  		<td>22</td>
+		  	</tr>
+		  	<tr>
+		  		<!-- <td>3</td> -->
+		  		<td>B</td>
+		  		<td>33</td>
+		  	</tr>
+		  </table>
+
+		  <!-- Thẻ ol, ul, li - Thẻ danh sách -->
+		  <!-- ol - order list -->
+		  <ol>
+		  	<li>Thẻ li thứ nhất trong ol</li>
+		  	<li>Thẻ li thứ 2 trong ol</li>
+		  	<li>Thẻ li thứ 3 trong ol</li>
+		  </ol>
+		  <!-- ul - unorder list -->
+		  <ul>
+		  	<li>Thẻ li thứ nhất trong ul</li>
+		  	<li>Thẻ li thứ 2 trong ul</li>
+		  	<li>Thẻ li thứ 3 trong ul</li>
+		  </ul>
+		  <!-- Thẻ a - Link, luôn khai báo thuộc tính href -->
+		  <a href="https://google.vn"
+		  target="_blank">
+		  	Click để tới Google
+		  </a>
+		  <a href="#">Click</a>
+		  <!-- Thẻ button - Hiển thị 1 nút -->
+		  <button>Button</button>
+		  <!-- Thẻ center - Căn giữa nội dung text bên trong, dùng mục đích làm bài tập, thực tế sẽ ko dùng -->
+		  <center>Text đc căn giữa</center>
+		  <!-- Fieldset, legend: search google -->
+		  <!-- Các thẻ  liên quan đến form:
+		  form, input, textarea, select, option -->
+		  <!-- Khi khai báo form, luôn bao các input bên trong thẻ form, 1 form chỉ gửi đc thông tin đi khi nằm trong thẻ form -->
+		  <form action="" method="post">
+		  	Nhập text:
+		  	<input type="text" name="fullname"placeholder="Nhập text vào đây"
+		  	value="ABC" />
+		  	<br />
+		  	Nhập mật khẩu:
+		  	<input type="password"  />
+		  	<br />
+		  	Chỉ nhập số:
+		  	<input type="number" />
+		  	<br />
+		  	Chỉ nhập đc định dạng email:
+		  	<input type="email" />
+		  	<br />
+		  	Chọn giới tính:
+		  	<!-- Với radio bắt buộc phải set thuộc tính name có giá trị giống nhau thì mới chọn đc 1 trong nhiều radio -->
+		  	<input type="radio" name="gender" /> Nam
+		  	<!-- thuộc tính checked áp dụng với radio và checkbox -->
+		  	<input type="radio" name="gender" checked /> Nữ
+		  	<input type="radio" name="gender" /> Khác
+		  	<br />
+		  	Chọn nghề nghiệp dạng checkbox:
+		  	<input type="checkbox" /> Dev
+		  	<input type="checkbox" checked /> Tester
+		  	<input type="checkbox" /> BrSE
+		  	<br />
+		  	Upload file:
+		  	<input type="file" />
+		  	<br />
+		  	Upload nhiều file
+		  	<input type="file" multiple />
+		  	<br />
+		  	Chọn quốc gia dưới dạng list:
+		  	<!-- Có thể chọn nhiều option tại 1 thời điểm bằng cách thêm thuộc tính multiple cho thẻ select -->
+		  	<!-- Dùng thuộc tính selected trên thẻ option nào mà muốn set mặc định -->
+		  	<select>
+		  		<option>VN</option>
+		  		<option selected>Korea</option>
+		  		<option>Japan</option>
+		  	</select>
+		  	<!-- Nội dung giữa cặp thẻ textarea ko đc chứa dấu cách-->
+		  	<textarea cols="20" rows="5"></textarea>
+		  	<!-- Nút submit form, là input dùng để gửi thông tin đi khi click, nút này chỉ hoạt động khi có thẻ form bao ngoài -->
+		  	<input type="submit" value="Gửi thông tin" />
+		  	<!-- Nut reset form -->
+		  	<input type="reset" value="Xóa thông tin form" />
+		  </form>
+	</body>
+</html>
+
+
