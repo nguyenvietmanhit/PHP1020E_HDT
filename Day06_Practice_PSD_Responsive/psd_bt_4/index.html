@@ -1,0 +1,194 @@
+<!-- psd_bt_4/index.html 
+Tạo cấu trúc thư mục như sau:
+psd_bt_4/
+        /index.html
+        /css
+            /style.css
+        /images/
+        /fonts/
+        /js
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" >
+	<title>Chữa bài tập 4 ngày 5</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<!-- Quy tắc dựng 1 trang HTML:
+	- Cần tách các bố cục trước như: header, main, footer
+	- Thêm các class vào các thẻ HTML khi dựng
+	- Nếu có cấu trúc layout / hàng-cột thì dựng sẵn cấu trúc row-col
+	 -->
+	 <div class="container-fluid">
+	 	<!-- HEADER -->
+	 	<div class="header">
+	 		<div class="container">
+	 			<!-- 1 hàng 2 cột -->
+	 			<div class="row">
+	 				<div class="logo">
+	 					special
+	 					<span class="offers">offers</span>
+	 					<span class="premium">
+	 						<!-- Font MyriadPro Light -->
+	 						premium design templates
+	 					</span>
+	 				</div>
+	 				<div class="search">
+	 					<form action="" method="get">
+	 						<input type="text" placeholder="Search" />
+	 						<!-- Do nut submit là 1 ảnh, nên ko thể dùng input type=submit để hiển thị ảnh dc -> dùng button type=submit thay thế -->
+	 						<button type="submit">
+	 							<img src="images/icon-search.jpg" />
+	 						</button>
+	 					</form>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 	<!-- END HEADER -->
+
+	 	<!-- MAIN -->
+	 	<div class="main">
+	 		<div class="tabs">
+	 			<div class="container">
+	 				<ul>
+	 					<li><a href="#">Home</a></li>
+	 					<li class="active"><a href="#">Services</a></li>
+	 					<li><a href="#">Project</a></li>
+	 					<li><a href="#">About Us</a></li>
+	 					<li><a href="#">Contact Us</a></li>
+	 				</ul>
+	 			</div>
+	 		</div>
+
+	 		<div class="services">
+	 			<div class="services-content">
+		 			<div class="container">
+		 				Services
+		 			</div>
+	 			</div>
+	 		</div>
+
+	 		<div class="content">
+	 			<div class="container">
+	 				<!-- 1 hàng 2 cột -->
+	 				<div class="row">
+	 					<div class="left">
+	 						<h3 class="company">
+	 							Services company
+	 						</h3>
+	 						<p class="des">
+	 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	 						</p>
+	 						<p class="des-2">
+	 							Suspendisse adipiscing
+	 						</p>
+	 						<!-- Layout 1 hàng 2 cột-->
+	 						<div class="row">
+	 							<div class="feature">
+	 								<h3 class="feature-h">
+	 									Featured service 1
+	 								</h3>
+	 								<div class="row">
+	 									<div class="image">
+	 										<img src="images/book.jpg" />
+	 									</div>
+	 									<div class="text">
+	 										<strong>
+	 											Lorem Ipsum
+	 										</strong>
+	 										<p>
+	 											and a search for 
+	 										</p>
+	 										<a href="#" class="order">
+	 											Order now
+	 										</a>
+	 									</div>
+	 								</div>
+	 							</div>
+	 							<div class="feature">
+	 								<h3 class="feature-h">
+	 									Featured service 1
+	 								</h3>
+	 								<div class="row">
+	 									<div class="image">
+	 										<img src="images/book.jpg" />
+	 									</div>
+	 									<div class="text">
+	 										<strong>
+	 											Lorem Ipsum
+	 										</strong>
+	 										<p>
+	 											and a search for 
+	 										</p>
+	 										<a href="#" class="order">
+	 											Order now
+	 										</a>
+	 									</div>
+	 								</div>
+	 							</div>
+	 						</div>
+
+	 						<!-- Layout 1 hàng 2 cột-->
+	 						<div class="row">
+	 							<div class="feature">
+	 								<h3 class="feature-h">
+	 									Featured service 1
+	 								</h3>
+	 								<div class="row">
+	 									<div class="image">
+	 										<img src="images/book.jpg" />
+	 									</div>
+	 									<div class="text">
+	 										<strong>
+	 											Lorem Ipsum
+	 										</strong>
+	 										<p>
+	 											and a search for 
+	 										</p>
+	 										<a href="#" class="order">
+	 											Order now
+	 										</a>
+	 									</div>
+	 								</div>
+	 							</div>
+	 							<div class="feature">
+	 								<h3 class="feature-h">
+	 									Featured service 1
+	 								</h3>
+	 								<div class="row">
+	 									<div class="image">
+	 										<img src="images/book.jpg" />
+	 									</div>
+	 									<div class="text">
+	 										<strong>
+	 											Lorem Ipsum
+	 										</strong>
+	 										<p>
+	 											and a search for 
+	 										</p>
+	 										<a href="#" class="order">
+	 											Order now
+	 										</a>
+	 									</div>
+	 								</div>
+	 							</div>
+	 						</div>
+	 					</div>
+	 					<div class="right"></div>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 	<!-- END MAIN -->
+
+	 	<!-- FOOTER -->
+	 	<div class="footer">
+	 		<div class="container"></div>
+	 	</div>
+	 	<!-- END FOOTER -->
+	 </div>
+</body>
+</html>

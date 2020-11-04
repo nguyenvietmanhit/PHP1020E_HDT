@@ -1,0 +1,56 @@
+/* css/style.css */
+/* CSS trực tiếp trên Inspect HTML của trình
+duyệt */
+/* Nhúng font */
+@font-face {
+	src: url('../fonts/Myriad-Pro-Light.otf');
+	font-family: 'Myriad-Pro-Light';
+}
+
+.header {
+    padding: 15px 0;
+}
+
+.container {
+    /* background: red; */
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.row {
+    display: flex;
+}
+
+.logo, .search {
+	width: 50%;
+}
+
+.logo {
+	font-size: 30px;
+}
+
+.offers {
+    color: #258ACB;
+    font-weight: bold;
+}
+
+.premium {
+    font-family: Myriad-Pro-Light;
+    font-size: 10px;
+    display: block;
+    margin-left: 50px;
+}
+
+form {
+    /* background: red; */
+    position: relative;
+    /* width: 173px; */
+    display: inline-block;
+}
+
+button {
+	border: none;
+    padding: 0;
+    position: absolute;
+    right: 4px;
+}
