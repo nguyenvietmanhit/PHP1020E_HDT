@@ -28,3 +28,5 @@ echo "Hello, World";
  * mà đang chứa file .php muốn chạy
  */
 ?>
+<input type="text" placeholder="<?php echo 123456; ?>" />
+
