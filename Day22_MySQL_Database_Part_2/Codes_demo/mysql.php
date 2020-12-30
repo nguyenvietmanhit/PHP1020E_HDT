@@ -35,5 +35,10 @@
  * d/ Khóa ngoại của bảng: FOREIGN KEY, là khóa chính
  * của 1 bảng khác -> các bảng có mối quan hệ -> khoá
  * ngoại liên kết các bảng với nhau
+ * - Export CSDL ra 1 file .sql -> dùng PHPMyadmin ->
+ * Chọn CSDL -> Export php1020e_test ->
+ * - Import CSDL từ file .sql có sẵn
+ * -> Tạo CSDL thủ công: php1020e_import
+ * (utf8_general_ci) -> Import -> chọn file .sql
  *
  */
