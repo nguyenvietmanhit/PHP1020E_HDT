@@ -104,6 +104,41 @@ SELECT products.*, categories.name AS category_name
 FROM products
 INNER JOIN categories
 ON products.category_id = categories.id
+#14 - Từ khóa IN: dùng thay thế cho các điều kiện OR
+#vD: lấy các danh mục có id = 1 hoặc i = 2
+#viết sử dụng IN sẽ ngắn gọn hơn dùng OR
+SELECT * FROM categories WHERE id = 1 OR id = 2;
+SELECT * FROM categories WHERE id IN (1, 2);
+#15 - Từ khóa BETWEEN: dùng thay thế cho điều kiện >= AND <=
+#VD: lấy các danh mục mà có id nằm trong khoảng từ 1 -> 5
+SELECT * FROM categories WHERE id >= 1 AND id <= 5;
+SELECT * FROM categories WHERE id BETWEEN 1 AND 5;
+#16 - Hàm COUNT: đếm kết quả trả về theo trường nào đó
+#vd: đếm tất cả bản ghi đang có trong bảng categories
+SELECT COUNT(id) AS count_id FROM categories;
+#17 - Hàm MAX: lấy giá trị lớn nhất của các bản ghi theo trường nào đó
+#vd: lấy id lớn nhất trong bảng categories
+SELECT MAX(id) AS max_id FROM categories;
+#18 - Hàm MIN: lấy giá trị nhỏ nhất của các bản ghi theo trường nào đó
+#vd: lấy id nhỏ nhất trong bảng categories
+SELECT MIN(id) AS min_id FROM categories;
+#19 - Hàm AVG: tính giá trị trung bình theo cột nào đó
+#vd: tính avg của trường id trong bảng categories
+SELECT AVG(id) AS avg_id FROM categories;
+#20 - Hàm SUM: tính tổng giá trị theo cột
+#vd: tính tổng các id của bảng categories
+SELECT SUM(id) AS sum_id FROM categories;
+#21 - Từ khóa GROUP BY: nhóm các giá trị theo trường nào đó,
+#để sử dụng các hàm(COUNT, SUM, AVG ...) trên các nhóm đó
+#vd: đếm số lần xuất hiên của các danh mục theo status
+SELECT COUNT(id) AS count_id, status
+FROM categories
+GROUP BY status;
+
+
+
+
+
 
 
 
