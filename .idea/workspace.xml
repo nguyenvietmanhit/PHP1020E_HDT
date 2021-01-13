@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="03c2aea9-8442-4bde-b12d-30c616e08434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/update.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +18,11 @@
     <session id="1464760955">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.2" value="2" />
@@ -25,14 +30,15 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
           <entry key="jpg" value="1" />
-          <entry key="php" value="30" />
+          <entry key="js" value="1" />
+          <entry key="php" value="37" />
           <entry key="sql" value="1" />
           <entry key="txt" value="2" />
         </counts>
@@ -41,7 +47,8 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="Image" value="1" />
-          <entry key="PHP" value="30" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="37" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
         </counts>
@@ -49,16 +56,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1113" />
-          <entry key="php" value="55893" />
+          <entry key="php" value="61694" />
           <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1127" />
-          <entry key="PHP" value="55874" />
+          <entry key="PHP" value="61673" />
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="SQL" value="5" />
+          <entry key="SQL" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -66,60 +73,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day22_MySQL_Database_Part_2/Codes_demo/mysql.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8554">
-              <caret line="182" selection-start-line="182" selection-end-line="182" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day23_PHP_Connect_MySQL/Codes_demo/connect_mysql.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="466">
-              <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-              <folding>
-                <element signature="e#9#382#0#PHP" />
-              </folding>
+              <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/delete.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/detail.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/update.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/create.php">
+        <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="422">
+              <caret line="28" column="1" lean-forward="true" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="27" column="47" lean-forward="true" selection-start-line="20" selection-end-line="27" selection-end-column="47" />
               <folding>
-                <element signature="e#665#1290#0#PHP" />
-                <element signature="e#1088#1139#0#PHP" />
-                <element signature="e#1344#1376#0#PHP" />
-                <element signature="e#1607#1652#0#PHP" />
                 <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -127,13 +103,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/database.php">
+        <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-297">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/index_ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
               <folding>
-                <element signature="e#6#793#0#PHP" expanded="true" />
+                <element signature="e#6#564#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/get_product_ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/js/jquery-3.5.1.min.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="95" selection-start-line="95" selection-end-line="108" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -198,6 +215,12 @@
         <option value="$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/database.php" />
         <option value="$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/create.php" />
         <option value="$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/index.php" />
+        <option value="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/index.php" />
+        <option value="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/update.php" />
+        <option value="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/detail.php" />
+        <option value="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/delete.php" />
+        <option value="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/index_ajax.php" />
+        <option value="$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/get_product_ajax.php" />
       </list>
     </option>
   </component>
@@ -227,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,34 +261,32 @@
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2" type="462c0819:PsiDirectoryNode" />
               <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2" type="462c0819:PsiDirectoryNode" />
               <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
               <item name="crud" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
+              <item name="Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,6 +298,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP1020E_HDT\Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2\Codes_demo\crud" />
       <recent name="C:\xampp\htdocs\PHP1020E_HDT\Day22_MySQL_Database_Part_2" />
       <recent name="C:\xampp\htdocs\PHP1020E_HDT" />
     </key>
@@ -321,18 +344,20 @@
       <workItem from="1609759734685" duration="101000" />
       <workItem from="1609933740526" duration="7721000" />
       <workItem from="1610104904187" duration="28000" />
-      <workItem from="1610191763292" duration="9826000" />
+      <workItem from="1610191763292" duration="9850000" />
+      <workItem from="1610365738391" duration="233000" />
+      <workItem from="1610537420961" duration="10134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91025000" />
+    <option name="totallyTimeSpent" value="101416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.028744327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18759455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -545,10 +570,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/uploads/1610198262-img3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day22_MySQL_Database_Part_2/Codes_demo/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8554">
           <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day23_PHP_Connect_MySQL/Codes_demo/connect_mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4371">
+          <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/delete.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/detail.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/update.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4277">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#793#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,56 +620,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day23_PHP_Connect_MySQL/Codes_demo/connect_mysql.php">
+    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+        <state relative-caret-position="466">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/update.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/detail.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/delete.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/database.php">
+    <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding>
-            <element signature="e#6#793#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="314">
+          <caret line="95" selection-start-line="95" selection-end-line="108" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/uploads/1610198262-img3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/create.php">
+    <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="423">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="20" selection-end-line="27" selection-end-column="47" />
           <folding>
-            <element signature="e#665#1290#0#PHP" />
-            <element signature="e#1088#1139#0#PHP" />
-            <element signature="e#1344#1376#0#PHP" />
-            <element signature="e#1607#1652#0#PHP" />
             <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day24_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD/Codes_demo/crud/index.php">
+    <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/js/jquery-3.5.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/index_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
           <folding>
-            <element signature="e#9#382#0#PHP" />
+            <element signature="e#6#564#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="28" column="1" lean-forward="true" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/get_product_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
