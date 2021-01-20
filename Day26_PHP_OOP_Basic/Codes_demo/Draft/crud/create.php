@@ -2,7 +2,11 @@
 session_start();
 require_once 'database.php';
 /**
- * crud/create.php C - CRUD
+ * Draft/crud/create.php C - CRUD
+ * - Demo lỗi bảo mật XSS trong form
+ *Thử nhập chuỗi sau vào Nhập tên sp:
+ * <script>alert('hello')</script>
+ *
  * - LÀ chức năng dựng đầu tiên của CRUD, tạo
  * dữ liệu cho các chức năng còn lại sử dụng
  * - Form thêm mới sp:
@@ -11,16 +15,19 @@ require_once 'database.php';
 */
 // XỬ LÝ SUBMIT FORM
 // + Debug: $_POST, $_FILES
-echo "<pre>";
-print_r($_POST);
-print_r($_FILES);
-echo "</pre>";
+//echo "<pre>";
+//print_r($_POST);
+//print_r($_FILES);
+//echo "</pre>";
 // + Tạo biến chứa lỗi
 $error = '';
 // + Nếu submit thì mới xử lý
 if (isset($_POST['submit'])) {
-  // + Gán biến
-  $name = $_POST['name'];
+  // + Gán biến, để fix XSS, trc khi lấy giá trị từ
+//  form -> chạy qua hàm để chuyển các ký tự đặc biệt:
+  // <> thành các thực thể HTML
+  $name = htmlentities($_POST['name']);
+//  var_dump($name);die;
   $price = $_POST['price'];
   $avatar_arr = $_FILES['avatar'];
   // + Validate form
@@ -75,6 +82,7 @@ if (isset($_POST['submit'])) {
     $sql_insert =
 "INSERT INTO products(name, price, avatar)
 VALUES('$name', $price, '$avatar')";
+
     // + Thực thi truy vấn:
     $is_insert = mysqli_query($connection, $sql_insert);
 //    var_dump($is_insert);
