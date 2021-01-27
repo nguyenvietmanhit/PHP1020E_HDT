@@ -14,21 +14,21 @@
     <session id="1464760955">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,7 +36,7 @@
           <entry key="html" value="3" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
-          <entry key="php" value="44" />
+          <entry key="php" value="45" />
           <entry key="sql" value="1" />
           <entry key="txt" value="2" />
         </counts>
@@ -46,7 +46,7 @@
           <entry key="HTML" value="3" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="44" />
+          <entry key="PHP" value="45" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
         </counts>
@@ -54,14 +54,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1113" />
-          <entry key="php" value="79595" />
+          <entry key="php" value="79804" />
           <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1127" />
-          <entry key="PHP" value="79571" />
+          <entry key="PHP" value="79780" />
           <entry key="PLAIN_TEXT" value="42" />
           <entry key="SQL" value="10" />
         </counts>
@@ -70,15 +70,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day26_PHP_OOP_Basic/Codes_demo/Draft/crud/create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1316">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day26_PHP_OOP_Basic/Codes_demo/Draft/crud/demo_sqlinjection.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day26_PHP_OOP_Basic/Codes_demo/demo_oop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="7661">
+              <caret line="175" selection-start-line="175" selection-end-line="175" />
             </state>
           </provider>
         </entry>
@@ -109,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/demo_oop_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="6157">
               <caret line="131" column="46" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
             </state>
           </provider>
@@ -118,17 +109,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/4_tinh_chat_oop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="705">
               <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/demo_pdo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+            <state relative-caret-position="220">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_CRUD_And_MVC/Codes_demo/crud/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -220,6 +220,7 @@
         <option value="$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/demo_oop_2.php" />
         <option value="$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/4_tinh_chat_oop.php" />
         <option value="$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/demo_pdo.php" />
+        <option value="$PROJECT_DIR$/Day28_OOP_PDO_CRUD_And_MVC/Codes_demo/crud/database.php" />
       </list>
     </option>
   </component>
@@ -260,23 +261,12 @@
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day26_PHP_OOP_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Day28_OOP_PDO_CRUD_And_MVC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day26_PHP_OOP_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_PHP_OOP_Basic_PDO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day27_PHP_OOP_Basic_PDO" type="462c0819:PsiDirectoryNode" />
+              <item name="Day28_OOP_PDO_CRUD_And_MVC" type="462c0819:PsiDirectoryNode" />
               <item name="Codes_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -347,18 +337,20 @@
       <workItem from="1610710446458" duration="295000" />
       <workItem from="1611143604969" duration="8481000" />
       <workItem from="1611314408228" duration="11000" />
-      <workItem from="1611399967250" duration="10900000" />
+      <workItem from="1611399967250" duration="10927000" />
+      <workItem from="1611573759996" duration="1336000" />
+      <workItem from="1611748206019" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121709000" />
+    <option name="totallyTimeSpent" value="123320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,13 +378,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day15_PHP_Setup_Enviroment_And_Basic/Code_demo_tren_lop/demo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day16_PHP_Include_Require_Operator_Condition_Loop/Code_demo_tren_lop/php_basic_2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7943">
@@ -674,6 +659,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day26_PHP_OOP_Basic/Codes_demo/demo_oop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7661">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/demo_oop_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6157">
+          <caret line="131" column="46" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/4_tinh_chat_oop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day25_PHP_MySQL_Xss_Ajax_SQlInjection_CRUD_2/Codes_demo/crud/js/jquery-3.5.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -691,31 +697,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day26_PHP_OOP_Basic/Codes_demo/demo_oop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/demo_oop_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="131" column="46" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/4_tinh_chat_oop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day27_PHP_OOP_Basic_PDO/Codes_demo/demo_pdo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="124" column="15" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="15" />
+        <state relative-caret-position="220">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_CRUD_And_MVC/Codes_demo/crud/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
