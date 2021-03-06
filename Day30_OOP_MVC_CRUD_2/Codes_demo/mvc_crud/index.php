@@ -77,7 +77,7 @@ session_start();
 //H: giờ, i: phút, s: giây
 // Cần set lại múi giờ Việt Nam cho hệ thống
 date_default_timezone_set('Asia/Ho_Chi_Minh');
-echo date('d-m-Y H:i:s');
+//echo date('d-m-Y H:i:s');
 
 // - Phân tích url, lấy giá trị của controller và action
 // Demo với url thêm mới danh mục

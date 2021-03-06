@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: nvmanh
- * Date: 3/3/2021
- * Time: 7:19 PM
- */
+//models/Category.php
+// Model quản lý category, mọi truy vấn liên quan
+// đến category viết tại model này
+class Category {
+
+}
