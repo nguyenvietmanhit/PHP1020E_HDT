@@ -1,5 +1,6 @@
 <?php
 require_once 'controllers/Controller.php';
+require_once 'models/Category.php';
 //controllers/CategoryController.php
 //index.php?controller=category&action=create
 class CategoryController extends Controller {
@@ -70,9 +71,22 @@ class CategoryController extends Controller {
 
         // + Gọi Model để nhờ Model lưu thông tin vào
         // CSDL
+        $category_model = new Category();
+        // Gán giá trị từ form cho thuộc tính của model
+        $category_model->name = $name;
+        $category_model->avatar = $avatar;
+        $is_insert = $category_model->insert();
+        // Chuyển hướng
+        if ($is_insert) {
+          $_SESSION['success'] = 'Thêm danh mục thành công';
+          header
+          ('Location:index.php?controller=category&action=index');
+          exit();
+        } else {
+          $this->error = 'Thêm thất bại';
+        }
       }
     }
-
 
     // - Gọi view để hiển thị form thêm mới cho user,
     // là code đầu tiên khi code chức năng
@@ -92,5 +106,41 @@ class CategoryController extends Controller {
     // views/layouts/main.php
     // - Controller gọi file layout
     require_once 'views/layouts/main.php';
+  }
+
+  // Liệt kê danh mục
+  //index.php?controller=category&action=index
+  public function index() {
+    // Gọi model truy vấn tất cả bản ghi
+    $category_model = new Category();
+    $categories = $category_model->getAll();
+//    echo "<pre>";
+//    print_r($categories);
+//    echo "</pre>";
+    // + Gọi layout để hiển thị nội dung view
+    // Truyền mảng các biến ra view với cú pháp
+    // key là tên biến mà view sử dụng
+    // value tương ứng là giá trị của key đó
+    $this->content = $this
+        ->render('views/categories/index.php', [
+            'categories' => $categories
+        ]);
+    require_once 'views/layouts/main.php';
+  }
+
+  public function delete() {
+    // Xóa ko cần view, bỏ qua gọi layout
+    // Validate id
+    if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
+      $_SESSION['error'] = 'ID ko hợp lệ';
+      header('Location: index.php?controller=category&action=index');
+      exit();
+    }
+    $id = $_GET['id'];
+    // Gọi model để xóa
+    $category_model = new Category();
+    $is_delete = $category_model->delete($id);
+    var_dump($is_delete);
+    // Chuyển hướng dựa vào biến $is_delete
   }
 }
