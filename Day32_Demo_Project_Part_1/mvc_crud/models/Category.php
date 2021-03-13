@@ -52,4 +52,38 @@ ORDER BY created_at DESC";
   public function delete($id) {
     // Code xóa bản ghi theo $id
   }
+
+  public function getCategoryById($id) {
+    // + Viết truy vấn, ko cần tạo dạng tham số vì
+    // chắc chắn $id là số
+    $sql_select_one =
+    "SELECT * FROM categories WHERE id = $id";
+    // + Cbi obj truy vấn
+    $obj_select_one = $this->connection
+        ->prepare($sql_select_one);
+    // + Bỏ qua tạo mảng
+    // + Thực thi
+    $obj_select_one->execute();
+    // + Lấy mảng kết hợp 1 chiều
+    $category = $obj_select_one
+        ->fetch(PDO::FETCH_ASSOC);
+    return $category;
+  }
+
+  public function update($id) {
+    // + Viết truy vấn dạng tham số:
+    $sql_update =
+  "UPDATE categories SET name = :name, avatar = :avatar
+  WHERE id = $id";
+    // + Cbi obj truy vấn
+    $obj_update = $this->connection->prepare($sql_update);
+    // + Tạo mảng gán giá trị
+    $updates = [
+        ':name' => $this->name,
+        ':avatar' => $this->avatar
+    ];
+    // + Thực thi
+    $is_update = $obj_update->execute($updates);
+    return $is_update;
+  }
 }

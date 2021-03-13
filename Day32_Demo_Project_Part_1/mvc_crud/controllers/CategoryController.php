@@ -143,4 +143,54 @@ class CategoryController extends Controller {
     var_dump($is_delete);
     // Chuyển hướng dựa vào biến $is_delete
   }
+
+  public function update() {
+    //index.php?controller=category&action=update&id=2
+    // - Validate id: ko tồn tại tham số id hoặc ko phải số
+    if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
+      $_SESSION['error'] = 'Id ko hợp lệ';
+      header('Location:index.php?controller=category');
+      exit();
+    }
+    $id = $_GET['id'];
+    // Lấy bản ghi tương ứng theo id, truyền ra view
+    $category_model = new Category();
+    $category = $category_model->getCategoryById($id);
+
+    // - Xử lý submit form luôn ở vị trí phía trên view
+    // + Debug
+    echo "<pre>";
+    print_r($_POST);
+    print_r($_FILES);
+    echo "</pre>";
+    // + Nếu user submit form
+    if (isset($_POST['submit'])) {
+      // + Tạo biến
+      $name = $_POST['name'];
+      $avatar_arr = $_FILES['avatar'];
+      // + Validate form: giống với create
+      // + Xử lý logic chỉ khi ko có lỗi xảy ra
+      if (empty($this->error)) {
+        // + Xử lý upload file với chức năng update sẽ
+        // khác so với create
+        $avatar = $category['avatar'];
+        // Xử lý logic upload file nếu có như thêm mới,
+        // cần xóa file cũ đi để tránh rác dùng hàm
+        // unlink($path_file);
+        // + Update
+        // Gán giá trị từ form cho obj category
+        $category_model->name = $name;
+        $category_model->avatar = $avatar;
+        $is_update = $category_model->update($id);
+        var_dump($is_update);
+      }
+    }
+
+    // - Gọi layout để hiển thị view update
+    $this->content =
+    $this->render('views/categories/update.php', [
+        'category' => $category
+    ]);
+    require_once 'views/layouts/main.php';
+  }
 }
