@@ -1,0 +1,11 @@
+/*assets/css/style.css*/
+/*Do trình duyệt có cơ chế lưu cache css và js, nên
+có 1 số trường hợp khi thay đổi code sẽ ko nhận
+-> cần xóa cache trình duyệt bằng Ctrl + Shift + R */
+.header {
+    background: red;
+}
+
+.footer {
+    background: #ccc;
+}
