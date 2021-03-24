@@ -151,4 +151,8 @@
  *Code CRUD trc: danh mục, sp, tin tức
  * + Code backend: code MVC code file nào trước?
  * index.php gốc luôn là file đầu tiên sẽ code
+ * Code Controller
+ * Code View:
+ * + Tạo file layout, copy nội dung
+ * file .html chính của template vào file layout
  */
