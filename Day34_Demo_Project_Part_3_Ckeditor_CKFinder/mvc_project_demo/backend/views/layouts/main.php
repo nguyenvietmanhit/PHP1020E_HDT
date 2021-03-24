@@ -7,13 +7,14 @@ file sau: mockup_html/backend/index.html
 css, js, images, fonts ... vào assets của project
 - Check các đường dẫn tới file css, js, image
 theo cấu trúc project hiện tại
+- Hiển thị nội dung động vào vị trí mong muốn
 -->
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Dashboard</title>
+  <title><?php echo $this->page_title; ?></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -147,8 +148,8 @@ theo cấu trúc project hiện tại
   <div class="content-wrapper">
     <!-- Main content -->
     <section class="content">
-      Nội dung hiển thị ở đây
-
+<!--      Nội dung hiển thị ở đây-->
+        <?php echo $this->content; ?>
     </section>
     <!-- /.content -->
   </div>
@@ -174,5 +175,16 @@ theo cấu trúc project hiện tại
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="assets/js/adminlte.min.js"></script>
+<!--Tích hợp CKEditor-->
+<script src="assets/ckeditor/ckeditor.js"></script>
+
+<!--Tích hợp Ckeditor vào textarea thông qua name-->
+<script>
+    $(document).ready(function () {
+        var editor = CKEDITOR.replace( 'des' );
+        CKFinder.setupCKEditor( editor );
+    });
+
+</script>
 </body>
 </html>

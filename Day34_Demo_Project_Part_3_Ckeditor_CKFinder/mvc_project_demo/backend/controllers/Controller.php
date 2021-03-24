@@ -3,6 +3,7 @@
 class Controller {
   public $error;
   public $content;
+  public $page_title;
 
   public function render($file_path, $variables = []) {
     extract($variables);
