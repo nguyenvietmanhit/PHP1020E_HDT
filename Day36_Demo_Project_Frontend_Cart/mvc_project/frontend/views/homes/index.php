@@ -26,8 +26,9 @@ require_once 'helpers/Helper.php';
                     <span class="shop-price">
                             <?php echo number_format($product['price']) ?>
                 </span>
-
-                    <span class="add-to-cart">
+<!--                        frontend/views/homes/index.php-->
+                    <span class="add-to-cart"
+                          data-id="<?php echo $product['id']?>">
                         <a href="#" style="color: inherit">Thêm vào giỏ</a>
                     </span>
                 </div>
