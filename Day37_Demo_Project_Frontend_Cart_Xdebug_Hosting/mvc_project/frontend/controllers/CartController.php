@@ -44,4 +44,51 @@ class CartController extends Controller
     print_r($_SESSION);
     echo "</pre>";
   }
+
+  public function index() {
+    // Xử lý update Giỏ hàng:
+    echo "<pre>";
+    print_r($_POST);
+    print_r($_SESSION['cart']);
+    echo "</pre>";
+    if (isset($_POST['submit'])) {
+      // Xử lý nếu số lượng là âm thì chuyển hướng
+      foreach ($_POST AS $product_id => $quantity) {
+        if (is_numeric($quantity) && $quantity < 0){
+          $_SESSION['error'] = 'Số lượng phải > 0';
+          header('Location: gio-hang-cua-ban.html');
+          exit();
+        }
+      }
+
+      // Cập nhật giỏ hàng bằng cách lặp session
+      // giỏ hàng, gán số lượng mới từ form
+      //cho từng phần tử trong giỏ
+      foreach ($_SESSION['cart']
+               AS $product_id => $cart) {
+        $_SESSION['cart'][$product_id]['quantity']
+        = $_POST[$product_id];
+      }
+      $_SESSION['success'] = 'Cập nhật giỏ thành công';
+    }
+
+    // Lấy nội dung view
+    $this->content =
+    $this->render('views/carts/index.php');
+    // Gọi layout
+    require_once 'views/layouts/main.php';
+  }
+
+  public function delete() {
+    echo "<pre>";
+    print_r($_GET);
+    echo "</pre>";
+    // Xóa sp khỏi giỏ
+    $product_id = $_GET['id'];
+    unset($_SESSION['cart'][$product_id]);
+    $_SESSION['success'] =
+        'Xóa sp khỏi giỏ thành công';
+    header('Location: gio-hang-cua-ban.html');
+    exit();
+  }
 }

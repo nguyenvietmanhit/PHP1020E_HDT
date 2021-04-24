@@ -25,7 +25,7 @@
                         <div class="content-product">
                             <a href="chi-tiet-san-pham/samsung-s9/<?php echo $product_id?>"
                                class="content-product-a">
-                              <?php echo $cart['title']; ?>
+                              <?php echo $cart['name']; ?>
                             </a>
                         </div>
                     </td>

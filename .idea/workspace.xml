@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="03c2aea9-8442-4bde-b12d-30c616e08434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/CartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/views/homes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/views/homes/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/Hướng dẫn cài đặt XDebug cho PHPStorm.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/Hướng dẫn cài đặt XDebug cho PHPStorm.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/controllers/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/views/carts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/views/carts/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +23,10 @@
     <session id="1464760955">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
+          <entry key="project.closed" value="47" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="4" />
@@ -31,25 +34,25 @@
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
-          <entry key="project.open.time.2" value="9" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.2" value="10" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.opened" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="4" />
-          <entry key="htaccess" value="3" />
+          <entry key="htaccess" value="5" />
           <entry key="html" value="23" />
           <entry key="jpg" value="1" />
           <entry key="js" value="6" />
-          <entry key="php" value="148" />
+          <entry key="php" value="156" />
           <entry key="sql" value="3" />
           <entry key="txt" value="2" />
         </counts>
@@ -60,18 +63,19 @@
           <entry key="HTML" value="23" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="6" />
-          <entry key="PHP" value="148" />
+          <entry key="PHP" value="156" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="3" />
-          <entry key="htaccess" value="3" />
+          <entry key="htaccess" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="299" />
+          <entry key="htaccess" value="751" />
           <entry key="html" value="1146" />
           <entry key="js" value="1165" />
-          <entry key="php" value="125500" />
+          <entry key="php" value="127380" />
           <entry key="txt" value="42" />
         </counts>
       </usages-collector>
@@ -80,9 +84,11 @@
           <entry key="CSS" value="299" />
           <entry key="HTML" value="1160" />
           <entry key="JavaScript" value="1165" />
-          <entry key="PHP" value="125458" />
+          <entry key="PHP" value="127338" />
           <entry key="PLAIN_TEXT" value="42" />
+          <entry key="RegExp" value="3" />
           <entry key="SQL" value="28" />
+          <entry key="htaccess" value="748" />
         </counts>
       </usages-collector>
     </session>
@@ -90,94 +96,93 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Part_4_Login_Register/mvc_project/backend/controllers/UserController.php">
+        <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="111" column="57" lean-forward="true" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="57" />
+            <state relative-caret-position="371">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/backend/index.php">
+        <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/.htaccess">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="53">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/index.php">
+        <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/note.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/views/homes/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="63" />
+            <state relative-caret-position="360">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/assets/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/controllers/CartController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="404">
+              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#add#0;n#CartController#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/CartController.php">
+        <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/views/carts/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="159">
+              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/models/Product.php">
+        <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="94">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
+              <folding>
+                <element signature="n#index#0;n#ProductController#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Part_4_Login_Register/mvc_project/backend/views/layouts/main.php">
+        <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/demo_xdebug.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3127">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="549">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day34_Demo_Project_Part_3_Ckeditor_CKFinder/mvc_project_demo/backend/assets/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_CRUD_And_MVC/Codes_demo/mvc_demo/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="318">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -197,6 +202,7 @@
     <findStrings>
       <find>date(</find>
       <find>resource</find>
+      <find>title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,12 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day28_OOP_PDO_CRUD_And_MVC/Codes_demo/mvc_demo/assets/js/script.js" />
-        <option value="$PROJECT_DIR$/Day28_OOP_PDO_CRUD_And_MVC/Codes_demo/mvc_demo/configs/Database.php" />
-        <option value="$PROJECT_DIR$/Day29_OOP_MVC_CRUD/Codes_demo/mvc_crud/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/Day29_OOP_MVC_CRUD/Codes_demo/mvc_crud/assets/js/script.js" />
-        <option value="$PROJECT_DIR$/Day29_OOP_MVC_CRUD/Codes_demo/mvc_crud/index.php" />
-        <option value="$PROJECT_DIR$/Day29_OOP_MVC_CRUD/Codes_demo/mvc_crud/controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/Day29_OOP_MVC_CRUD/Codes_demo/mvc_crud/configs/Database.php" />
         <option value="$PROJECT_DIR$/Day30_OOP_MVC_CRUD_2/Codes_demo/mvc_crud/controllers/Controller.php" />
         <option value="$PROJECT_DIR$/Day30_OOP_MVC_CRUD_2/Codes_demo/mvc_crud/index.php" />
@@ -256,6 +256,12 @@
         <option value="$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/views/homes/index.php" />
         <option value="$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/CartController.php" />
         <option value="$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/demo_xdebug.php" />
+        <option value="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/index.php" />
+        <option value="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/index.php" />
+        <option value="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/views/carts/index.php" />
+        <option value="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/.htaccess" />
+        <option value="$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/controllers/CartController.php" />
       </list>
     </option>
   </component>
@@ -271,6 +277,17 @@
       <path value="$PROJECT_DIR$/Day12_Javascript_RegularExpression_jQueryLibrary/Code_demo_tren_lop/slider-pro-master/slider-pro-master/package.json" />
     </packageJsonPaths>
   </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="30982e38-091f-46e6-bd7a-918e4f898b1e" name="localhost" />
+      <server host="172.168.4.164" id="321b21e5-51ad-4e63-951d-739eb36a4206" name="172.168.4.164" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/Day28_OOP_PDO_CRUD_And_MVC/Codes_demo/mvc_demo" remote-root="C:/xampp/htdocs" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
@@ -285,7 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,42 +312,32 @@
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day36_Demo_Project_Frontend_Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day36_Demo_Project_Frontend_Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting" type="462c0819:PsiDirectoryNode" />
               <item name="mvc_project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day36_Demo_Project_Frontend_Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting" type="462c0819:PsiDirectoryNode" />
               <item name="mvc_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day36_Demo_Project_Frontend_Cart" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day36_Demo_Project_Frontend_Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting" type="462c0819:PsiDirectoryNode" />
               <item name="mvc_project" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day36_Demo_Project_Frontend_Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting" type="462c0819:PsiDirectoryNode" />
               <item name="mvc_project" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
@@ -339,15 +345,7 @@
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day36_Demo_Project_Frontend_Cart" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc_project" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day36_Demo_Project_Frontend_Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting" type="462c0819:PsiDirectoryNode" />
               <item name="mvc_project" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
@@ -355,16 +353,17 @@
             <path>
               <item name="PHP1020E_HDT" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP1020E_HDT" type="462c0819:PsiDirectoryNode" />
-              <item name="Day36_Demo_Project_Frontend_Cart" type="462c0819:PsiDirectoryNode" />
+              <item name="Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting" type="462c0819:PsiDirectoryNode" />
               <item name="mvc_project" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="homes" type="462c0819:PsiDirectoryNode" />
+              <item name="carts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,12 +458,15 @@
       <workItem from="1616671594508" duration="616000" />
       <workItem from="1617794744402" duration="10979000" />
       <workItem from="1617881633131" duration="117000" />
-      <workItem from="1618400564112" duration="9062000" />
+      <workItem from="1618400564112" duration="9235000" />
+      <workItem from="1618633869199" duration="288000" />
+      <workItem from="1618918158094" duration="219000" />
+      <workItem from="1619261862130" duration="8891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210751000" />
+    <option name="totallyTimeSpent" value="220322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -476,7 +478,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4599018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -484,7 +486,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -497,17 +499,71 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/HomeController.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/HomeController.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/demo_xdebug.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/demo_xdebug.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/demo_xdebug.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/demo_xdebug.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/demo_xdebug.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/controllers/ProductController.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/controllers/ProductController.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/controllers/CartController.php</url>
+          <line>75</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/controllers/CartController.php</url>
+          <line>78</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/configs/Database.php" />
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/controllers/Controller.php" />
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/controllers/CategoryController.php" />
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/models/Model.php" />
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/views.php" />
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/views/categories.php" />
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/models/Category.php" />
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/views/categories/index.php" />
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/views/categories/create.php" />
-    <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/views/categories/update.php" />
     <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/views/categories/detail.php" />
     <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/views/layouts/main.php" />
     <entry file="file://$PROJECT_DIR$/Day33_Demo_Project_Part_1/mvc_project/backend/.htaccess" />
@@ -661,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="848">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="n#isUserExists#0;n#User#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,6 +724,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Part_4_Login_Register/mvc_project/backend/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5883">
+          <caret line="111" column="57" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/backend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/note.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1378">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/views/homes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1643">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2173">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/models/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2226">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -688,61 +800,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day35_Demo_Project_Part_4_Login_Register/mvc_project/backend/controllers/UserController.php">
+    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="111" column="57" lean-forward="true" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="57" />
+        <state relative-caret-position="371">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/backend/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/note.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/views/homes/index.php">
+    <entry file="file://$PROJECT_DIR$/Day28_OOP_PDO_CRUD_And_MVC/Codes_demo/mvc_demo/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="63" />
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/models/Product.php">
+    <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/demo_xdebug.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="549">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/controllers/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day36_Demo_Project_Frontend_Cart/mvc_project/frontend/assets/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="94">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#index#0;n#ProductController#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/backend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/views/carts/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day37_Demo_Project_Frontend_Cart_Xdebug_Hosting/mvc_project/frontend/controllers/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+          <folding>
+            <element signature="n#add#0;n#CartController#0;n#!!top" />
           </folding>
         </state>
       </provider>

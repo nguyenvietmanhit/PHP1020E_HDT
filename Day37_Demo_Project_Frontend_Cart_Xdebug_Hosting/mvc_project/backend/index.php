@@ -1,7 +1,8 @@
 <?php
+//index.php?controller=product&action=create
 session_start();
 date_default_timezone_set("Asia/Ho_Chi_Minh");
-
+https://vnexpress.net/mot-nguoi-ve-tu-nhat-ban-mac-covid-19-4267785.html
 //mục đích của file index.php gốc của ứng dụng
 //cần phải xử lý url trên trình duyệt để nhúng được class
 //controller tương ứng, sau đó khởi tạo đối tượng từ class
